@@ -146,10 +146,10 @@ const Home = () => {
               />
             </div>
 
-            <div className="w-full flex items-center mb-2 font-light">
+            <div className="w-full flex items-center mb-2 font-normal px-1">
               <input
                 type="checkbox"
-                className="cursor-pointer "
+                className="cursor-pointer accent-emerald-600 hover:accent-emerald-600 dark:accent-indigo-600 dark:hover:accent-indigo-500"
                 id="checkbox"
                 checked={isChecked}
                 onChange={handleCheckboxChange}
@@ -167,7 +167,7 @@ const Home = () => {
             <div className="w-full flex justify-center">
               <button
                 onClick={handelSaveNotes}
-                className="w-[95%] rounded-lg text-lg font-semibold bg-green-600 dark:bg-emerald-700 dark:hover:bg-emerald-800 hover:bg-green-700 transition ease-in delay-25 hover:scale-105 my-2 px-3 py-2 text-white active:scale-100 disabled:bg-gray-500 dark:disabled:bg-gray-600 disabled:scale-100 disabled:cursor-not-allowed select-none"
+                className="w-[95%] rounded-lg text-lg font-semibold bg-green-500 dark:bg-indigo-600 dark:hover:bg-indigo-500 hover:bg-green-600 transition ease-in delay-25 hover:scale-105 my-2 px-3 py-2 text-white active:scale-100 disabled:bg-gray-500 dark:disabled:bg-gray-600 disabled:scale-100 disabled:cursor-not-allowed select-none"
                 disabled={!isChecked}
               >
                 Save Note
