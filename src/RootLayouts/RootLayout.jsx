@@ -15,7 +15,7 @@ const RootLayout = () => {
         <Navbar />
         <Outlet />
         <button
-          className="absolute bottom-10 left-10 text-white"
+          className="fixed bottom-16 right-12 text-white"
           onClick={toggleDarkMode}
         >
           {darkMode ? (
